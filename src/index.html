@@ -6,17 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 11</title>
     <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="./sass/index.scss" />
   </head>
   <body>
-    <form class="search-form" id="search-form">
-      <input
-        type="text"
-        name="searchQuery"
-        autocomplete="off"
-        placeholder="Search images..."
-      />
-      <button type="submit">Search</button>
-    </form>
+    <header class="header-bar">
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+        />
+        <button class="search-btn" type="submit">
+          <svg class="target-ico">
+            <use href="./images/arrows-center-icon.svg#layer1"></use>
+          </svg>
+          <!-- Search -->
+        </button>
+      </form>
+    </header>
 
     <div class="gallery">
       <!-- Картки зображень -->

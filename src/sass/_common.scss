@@ -1,1 +1,7 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}

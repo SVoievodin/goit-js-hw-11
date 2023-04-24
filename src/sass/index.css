@@ -1,0 +1,63 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.header-bar {
+  height: -moz-max-content;
+  height: max-content;
+  background-color: #011624;
+  background-image: url("/src/images/ih-logo.svg");
+  background-repeat: no-repeat;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+input {
+  display: inline-flex;
+  border: 5px inset #1C6EA4;
+  border-radius: 8px;
+  padding: 15px;
+  padding-right: 50px;
+  width: 358px;
+  height: 50px;
+}
+
+.search-btn {
+  margin-left: -44px;
+  display: block;
+  border: 0px;
+  border-radius: 4px;
+  top: 8px;
+  height: 38px;
+  width: 38px;
+  background-color: #ee9c04;
+  transition: 0.3s ease-in-out;
+  fill: white;
+}
+.search-btn:hover {
+  transition: 0.3s ease-in-out;
+  background-color: #1C6EA4;
+  fill: #ee9c04;
+}
+
+.target-ico {
+  fill: inherit;
+  height: 18px;
+  width: 20px;
+  margin: auto;
+  display: block;
+}
+
+.search-form {
+  margin-top: 170px;
+  display: block;
+  display: flex;
+  position: relative;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=index.css.map */
