@@ -6,14 +6,20 @@
 }
 
 .header-bar {
+  position: fixed;
+  width: 100%;
   height: -moz-max-content;
   height: max-content;
-  background-color: #011624;
+  background-color: #012a46;
   background-image: url("/src/images/ih-logo.svg");
   background-repeat: no-repeat;
   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+body {
+  background-color: #e6e6e6;
 }
 
 input {
@@ -60,4 +66,33 @@ input {
   margin: auto;
   align-items: center;
   justify-content: center;
+}
+
+.gallery {
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.photo-card {
+  width: 320px;
+  box-shadow: 2px 5px 16px 0px rgba(11, 50, 94, 0.3098039216), 5px 5px 15px 5px rgba(123, 140, 161, 0);
+  margin: 12px;
+  background-color: #ffffff;
+}
+
+.info {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  text-align: center;
+  color: #012a46;
+}
+.info-item {
+  display: block;
+  border-top: 1px solid #ee9c04;
+  border-bottom: 1px solid #ee9c04;
 }/*# sourceMappingURL=index.css.map */
