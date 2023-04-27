@@ -10,8 +10,13 @@
 padding-top: 10px;
 padding-bottom: 10px;
 }
+
 body {
     background-color: #e6e6e6 ;
+    padding-bottom: 36px;
+    // display: block;
+    // text-align: center;
+    // justify-content: center;
    
 }
 input {
@@ -74,14 +79,42 @@ justify-content: center;
 
 
 .load-more {
+display: block;
+margin: 24px auto;
+text-align: center;
+font-size: 18;
+width: 220px;
+height: 50px;
+border: 0px;
+font-weight: 600;
 
+border-radius: 0px;
+transition: 0.3s ease-in-out;
+background-color: #ee9c04;
+color: white;
+        box-shadow: 2px 5px 16px 0px #0b325e4f, 5px 5px 15px 5px rgba(123, 140, 161, 0);    
+
+&:hover {
+    font-size: 20;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    background-color: #1C6EA4;
+          }
 }
 
 .photo-card{
     width: 320px;
     box-shadow: 2px 5px 16px 0px #0b325e4f, 5px 5px 15px 5px rgba(123, 140, 161, 0);
     margin: 12px;
-        background-color: #ffffff;
+    background-color: #ffffff;
+    transition: 0.3s ease-in-out;
+
+&:hover {
+        transition: 0.3s ease-in-out;
+        border-radius: 24px;
+        background-color: #fffbca;
+        box-shadow: 2px 5px 16px 0px #f8b0134f, 5px 5px 15px 5px rgba(123, 140, 161, 0);
+    }
 }
 
 .info {
